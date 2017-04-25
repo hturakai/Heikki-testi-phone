@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Heikki-testi-phone
+  host: Heikki-testi-phone
+  disk_quota: 1024M
+  services:
+  - Heikki-testi-phone-cloudantNoSQLDB
+  - Heikki-testi-phone-iotf-service
